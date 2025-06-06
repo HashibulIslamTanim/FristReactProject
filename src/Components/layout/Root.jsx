@@ -1,13 +1,13 @@
 import { Outlet } from "react-router"
-import Naveber from "./Naveber"
-import Footer from "./Footer"
+import Naveber from "../shared/Naveber"
+import Footer from "../shared/Footer"
 
 
 let Root = ()=>{
     return(
         <div>
            <Naveber />
-           <Outlet></Outlet>
+            <Outlet />
            <Footer /> 
         </div>
     )

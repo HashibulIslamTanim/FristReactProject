@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "আপেল",
+        "price":"300",
+        "writer":"",
+        "image":"/public/FruitAPI/Fruitimage/fruit100.jpeg" 
+    },
+    {
+        "id": "2",
+        "name": "মালটা",
+        "price":"280",
+        "writer":"",
+        "image":"/public/FruitAPI/Fruitimage/fruit101.jpeg" 
+    },
+    {
+        "id": "3",
+        "name": "পেপে",
+        "price":"130",
+        "writer":"",
+        "image":"/public/FruitAPI/Fruitimage/fruit102.jpeg" 
+    },
+    {
+        "id": "4",
+        "name": "স্টোবেরী",
+        "price":"900",
+        "writer":"",
+        "image":"/public/FruitAPI/Fruitimage/fruit103.jpeg" 
+    },
+    {
+        "id": "5",
+        "name": "তরমুজ",
+        "price":"40",
+        "writer":"",
+        "image":"/public/FruitAPI/Fruitimage/fruit104.jpeg" 
+    },
+    {
+        "id": "6",
+        "name": "কাঠ বাদাম",
+        "price":"120",
+        "writer":"",
+        "image":"/public/FruitAPI/Fruitimage/fruit105.jpeg" 
+    },
+    {
+        "id": "7",
+        "name": "আনারস",
+        "price":"60",
+        "writer":"",
+        "image":"/public/FruitAPI/Fruitimage/fruit106.jpeg" 
+    },
+    {
+        "id": "8",
+        "name": "আম",
+        "price":"70",
+        "writer":"",
+        "image":"/public/FruitAPI/Fruitimage/fruit107.jpeg" 
+    },
+    {
+        "id": "9",
+        "name": "ডালিম",
+        "price":"320",
+        "writer":"",
+        "image":"/public/FruitAPI/Fruitimage/fruit108.jpeg" 
+    },
+    {
+        "id": "10",
+        "name": "সবেদা",
+        "price":"190",
+        "writer":"",
+        "image":"/public/FruitAPI/Fruitimage/fruit109.jpeg" 
+    }
+]

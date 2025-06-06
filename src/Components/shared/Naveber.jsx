@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router";
 function Naveber() {
   const [smallNav, Setsmallnav] = useState(true);
-  const [activelink, Setactivelink] = useState("/Home");
+  const [activelink, Setactivelink] = useState("/");
   const loction = useLocation();
   useEffect(() => {
     Setactivelink(loction.pathname || "/Home")
@@ -19,9 +19,9 @@ function Naveber() {
 
 
   return (
-    <div className="fixed  w-full">
+    <nav className="sticky top-0 z-1 ">
 
-      <div className="flex bg-cyan-400  justify-between    px-3 py-3 md:py-6 items-center">
+      <div className="flex bg-cyan-500/80  justify-between    px-3 py-3 md:py-6 items-center  ">
         <h1 className=" hidden md:block text-3xl text-lime-300 font-bold italic font-serif">Islamic Beneficial Institution</h1>
         {/* for small device */}
         <h1 className=" block md:hidden text-3xl text-lime-300 font-bold italic font-serif border-3 border-e-lime-300 rounded-full p-2 bg-blue-400">IBI</h1>
@@ -30,41 +30,42 @@ function Naveber() {
 
 
         <ul className=" hidden md:flex space-x-5 text-white text-1xl font-bold ">
-          <li className={`hover:border-b-3 border-b-blue-700 ${activelink === "/Home" ? " border-b-blue-700 text-red-600" : ""}`}>
-            <Link to={"/Home"} onClick={() => activation("/Home")}>
+          <li>
+            <Link to={"/"} onClick={() => activation("/")} className={`hover:border-b-3 border-b-blue-700 ${activelink === "/" ? " border-b-blue-700 text-red-600" : ""}`}>
               Home
             </Link>
           </li>
-          <li className={`hover:border-b-3 border-b-blue-700 ${activelink === "/IslamicBook" ? " border-b-blue-700 text-red-600" : ""}`}>
-            <Link to={"/IslamicBook"} onClick={() => activation("/IslamicBook")}>
+          <li>
+            <Link to={"/IslamicBook"} onClick={() => activation("/IslamicBook")} className={`hover:border-b-3 border-b-blue-700 ${activelink === "/IslamicBook" ? " border-b-blue-700 text-red-600" : ""}`}>
               Islamic-Book
             </Link>
           </li>
-          <li className={`hover:border-b-3 border-b-blue-700 ${activelink === "/Food" ? " border-b-blue-700 text-red-600" : ""}`}>
-            <Link to={"/Food"} onClick={() => activation("/Food")}>
+          <li>
+            <Link to={"/Food"} onClick={() => activation("/Food")} className={`hover:border-b-3 border-b-blue-700 ${activelink === "/Food" ? " border-b-blue-700 text-red-600" : ""}`}>
               Food
             </Link>
           </li>
-          <li className={`hover:border-b-3 border-b-blue-700 ${activelink === "/Fruit" ? " border-b-blue-700 text-red-600" : ""}`}>
-            <Link to={"/Fruit"} onClick={() => activation("/Fruit")}>
+          <li>
+            <Link to={"/Fruit"} onClick={() => activation("/Fruit")} className={`hover:border-b-3 border-b-blue-700 ${activelink === "/Fruit" ? " border-b-blue-700 text-red-600" : ""}`}>
               Fruit
             </Link>
           </li>
-          <li className={`hover:border-b-3 border-b-blue-700 ${activelink === "/Accesories" ? " border-b-blue-700 text-red-600" : ""}`}>
-            <Link to={"/Accesories"} onClick={() => activation("/Accesories")}>
+          <li>
+            <Link to={"/Accesories"} onClick={() => activation("/Accesories")} className={`hover:border-b-3 border-b-blue-700 ${activelink === "/Accesories" ? " border-b-blue-700 text-red-600" : ""}`}>
               Accesories
             </Link>
           </li>
         </ul>
-        <button className="p-1 font-black text-fuchsia-500  border-3 outline-0 border-emerald-500 rounded-2xl cursor-pointer">Log In</button>
-
+        <button className="p-1 font-black text-fuchsia-500  border-3 outline-0 border-emerald-500 rounded-2xl cursor-pointer"><Link to={"/Login"}>Log In</Link></button>
         <button className="block md:hidden text-white font-bold cursor-pointer text-3xl" onClick={changrNavIcon}>{smallNav ? <FiAlignJustify /> : <ImCross />}</button>
+        
+
 
       </div>
-      <div className={`bg-emerald-300 ${smallNav ? 'hidden' : 'block'}`}>
+      <div className={`bg-emerald-300/90 ${smallNav ? 'hidden' : 'block'}`}>
         <ul className={`flex-col space-x-5 text-white text-1xl font-bold `}>
-          <li className={`hover:border-3 border-blue-700 ${activelink === "/Home" ? " border-b-blue-700 text-red-600" : ""} text-center  m-auto cursor-pointer`}>
-            <Link to={"/Home"} onClick={() => activation("/Home")}>
+          <li className={`hover:border-3 border-blue-700 ${activelink === "/" ? " border-b-blue-700 text-red-600" : ""} text-center  m-auto cursor-pointer`}>
+            <Link to={"/"} onClick={() => activation("/")}>
               Home
             </Link>
           </li>
@@ -92,7 +93,7 @@ function Naveber() {
       </div>
 
 
-    </div>
+    </nav>
   )
 }
 

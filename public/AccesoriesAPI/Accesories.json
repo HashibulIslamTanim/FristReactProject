@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "তসবি + প্রদিপ",
+        "price":"120",
+        "writer":"",
+        "image":"/public/AccesoriesAPI/Accesoriesimage/islac100.jpeg" 
+    },
+    {
+        "id": "2",
+        "name": "লকেট",
+        "price":"80",
+        "writer":"",
+        "image":"/public/AccesoriesAPI/Accesoriesimage/islac101.jpeg" 
+    },
+    {
+        "id": "3",
+        "name": "গাড়ীতে ঝুলানর জন্য লকেট",
+        "price":"100",
+        "writer":"",
+        "image":"/public/AccesoriesAPI/Accesoriesimage/islac102.jpeg" 
+    },
+    {
+        "id": "4",
+        "name": "পানির গ্লাস",
+        "price":"150",
+        "writer":"",
+        "image":"/public/AccesoriesAPI/Accesoriesimage/islac103.jpeg" 
+    },
+    {
+        "id": "5",
+        "name": "জায়নামায",
+        "price":"400",
+        "writer":"",
+        "image":"/public/AccesoriesAPI/Accesoriesimage/islac104.jpeg" 
+    },
+    {
+        "id": "6",
+        "name": "টুপি",
+        "price":"90",
+        "writer":"",
+        "image":"/public/AccesoriesAPI/Accesoriesimage/islac105.jpeg" 
+    },
+    {
+        "id": "7",
+        "name": "গাড়ীতে ঝুলানর জন্য লকেট",
+        "price":"100",
+        "writer":"",
+        "image":"/public/AccesoriesAPI/Accesoriesimage/islac106.jpeg" 
+    },
+    {
+        "id": "8",
+        "name": "মেয়েদের পার্স",
+        "price":"300",
+        "writer":"",
+        "image":"/public/AccesoriesAPI/Accesoriesimage/islac107.jpeg" 
+    },
+    {
+        "id": "9",
+        "name": "মেয়েদের হিজাব",
+        "price":"400",
+        "writer":"",
+        "image":"/public/AccesoriesAPI/Accesoriesimage/islac108.jpeg" 
+    },
+    {
+        "id": "10",
+        "name": "ছেলেদের রুমালের পেকেজ",
+        "price":"300",
+        "writer":"",
+        "image":"/public/AccesoriesAPI/Accesoriesimage/islac109.jpeg" 
+    }
+]

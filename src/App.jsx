@@ -1,6 +1,6 @@
 
 import './App.css'
-import Root from './Components/Root'
+import Root from './Components/layout/Root'
 
 function App() {
   
