@@ -11,10 +11,12 @@ import Fruit from './Components/pages/Fruit.jsx'
 import Accesories from './Components/pages/Accesories.jsx'
 import Login from './Components/authentik/Login.jsx'
 import Register from './Components/authentik/Register.jsx'
+import Error from './Components/pages/Error.jsx'
 const router = createBrowserRouter([
   {
     path:"/",
     Component: Root,
+    errorElement: Error,
     children:[
       {
         index: true,
