@@ -1,69 +1,69 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "name": "আর-রাহীকুল মাখতুম",
         "price":"320",
         "writer":"",
         "image":"https://i.ibb.co/S7QX4j3n/isbook103.jpg" 
     },
     {
-        "id": "2",
+        "id": 2,
         "name": "ইক্বামতে দ্বীন",
         "price":"120",
         "writer":"",
         "image":"https://i.ibb.co/dwtN9pZg/isbook102-Copy.jpg"  
     },
     {
-        "id": "3",
+        "id": 3,
         "name": "কুরআন শরীফ",
         "price":" 400",
         "writer":"",
         "image":"/public/IslamicbookAPI/islamicbookImg/isbook104.jpeg" 
     },
     {
-        "id": "4",
+        "id": 4,
         "name": "ইসলামী আকীদা",
         "price":"140",
         "writer":"",
         "image":"/public/IslamicbookAPI/islamicbookImg/isbook105.jpeg" 
     },
     {
-        "id": "5",
+        "id": 5,
         "name": "আল আযকার",
         "price":"350",
         "writer":"",
         "image":"/public/IslamicbookAPI/islamicbookImg/isbook108.jpeg" 
     },
     {
-        "id": "6",
+        "id": 6,
         "name": "হতাশ হবেন না",
         "price":"300",
         "writer":"",
         "image":"/public/IslamicbookAPI/islamicbookImg/isbook109.jpeg" 
     },
     {
-        "id": "7",
+        "id": 7,
         "name": "আজ রাজত্ব কার ?",
         "price":"200",
         "writer":"",
         "image":"/public/IslamicbookAPI/islamicbookImg/isbook106.jpeg" 
     },
     {
-        "id": "8",
+        "id": 8,
         "name": "ইসলামের ঐতিহাসিক ভূমিকা",
         "price":"120",
         "writer":"",
         "image":"/public/IslamicbookAPI/islamicbookImg/isbook100.jpeg" 
     },
     {
-        "id": "9",
+        "id": 9,
         "name": "তাফসীরুল কুরআন",
         "price":"800",
         "writer":"",
         "image":"/public/IslamicbookAPI/islamicbookImg/isbook101.jpeg" 
     },
     {
-        "id": "10",
+        "id": 10,
         "name": "ইখলাস",
         "price":"150",
         "writer":"",
