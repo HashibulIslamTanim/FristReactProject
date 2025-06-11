@@ -18,55 +18,55 @@
         "name": "কুরআন শরীফ",
         "price":" 400",
         "writer":"",
-        "image":"/public/IslamicbookAPI/islamicbookImg/isbook104.jpeg" 
+        "image":"https://i.ibb.co/WvPYpCg8/isbook104.jpg" 
     },
     {
         "id": 4,
         "name": "ইসলামী আকীদা",
         "price":"140",
         "writer":"",
-        "image":"/public/IslamicbookAPI/islamicbookImg/isbook105.jpeg" 
+        "image":"https://i.ibb.co/8gs69DRb/isbook105.jpg" 
     },
     {
         "id": 5,
         "name": "আল আযকার",
         "price":"350",
         "writer":"",
-        "image":"/public/IslamicbookAPI/islamicbookImg/isbook108.jpeg" 
+        "image":"https://i.ibb.co/LzGj6kFj/isbook108.jpg" 
     },
     {
         "id": 6,
         "name": "হতাশ হবেন না",
         "price":"300",
         "writer":"",
-        "image":"/public/IslamicbookAPI/islamicbookImg/isbook109.jpeg" 
+        "image":"https://i.ibb.co/m5n78Tdg/isbook109.jpg" 
     },
     {
         "id": 7,
         "name": "আজ রাজত্ব কার ?",
         "price":"200",
         "writer":"",
-        "image":"/public/IslamicbookAPI/islamicbookImg/isbook106.jpeg" 
+        "image":"https://i.ibb.co/m513kHRs/isbook106.jpg" 
     },
     {
         "id": 8,
         "name": "ইসলামের ঐতিহাসিক ভূমিকা",
         "price":"120",
         "writer":"",
-        "image":"/public/IslamicbookAPI/islamicbookImg/isbook100.jpeg" 
+        "image":"https://i.ibb.co/YFbsr3kc/isbook100.jpg" 
     },
     {
         "id": 9,
         "name": "তাফসীরুল কুরআন",
         "price":"800",
         "writer":"",
-        "image":"/public/IslamicbookAPI/islamicbookImg/isbook101.jpeg" 
+        "image":"https://i.ibb.co/R4v3GkPR/isbook101.jpg" 
     },
     {
         "id": 10,
         "name": "ইখলাস",
         "price":"150",
         "writer":"",
-        "image":"/public/IslamicbookAPI/islamicbookImg/isbook107.jpeg" 
+        "image":"https://i.ibb.co/kgL3LF6w/isbook107.jpg" 
     }
 ]
