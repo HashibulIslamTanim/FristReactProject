@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router-dom"
 
 
 function IslamicBook() {
-  const loadingdata =useLoaderData()
+  const loadingdata =useLoaderData([])
    console.log(loadingdata);
   return (
    

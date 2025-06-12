@@ -2,7 +2,7 @@ import { useLoaderData } from "react-router-dom";
 
 
 function Accesories() {
-  const loadingdata =useLoaderData()
+  const loadingdata =useLoaderData([])
    console.log(loadingdata);
   return (
        <div className="flex flex-wrap bg-blue-950  justify-center items-center ">
