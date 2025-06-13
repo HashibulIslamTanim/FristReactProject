@@ -9,7 +9,7 @@ function IslamicBook() {
    
     <div className="flex flex-wrap justify-center items-center bg-blue-950 ">
       {
-          loadingdata.map((product) =>
+          (loadingdata || []).map(product =>
            <li className="list-none" key={product.id}>
         <div className="m-2 border-blue-500 rounded border-2 flex flex-col justify-center items-center bg-emerald-300 hover:shadow-2xl hover:shadow-fuchsia-500 ">
          
@@ -27,7 +27,7 @@ function IslamicBook() {
             
         </div>
         </li>
-         )
+        )
       }
       
      
