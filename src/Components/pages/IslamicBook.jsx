@@ -3,13 +3,14 @@ import { useLoaderData } from "react-router-dom"
 
 
 function IslamicBook() {
-  const loadingdata =useLoaderData([])
+  const loadingdata =useLoaderData([]);
+  const load = Array.isArray(loadingdata) ? loadingdata : [] ;
    console.log(loadingdata);
   return (
    
     <div className="flex flex-wrap justify-center items-center bg-blue-950 ">
       {
-          (loadingdata || []).map(product =>
+          load.map(product => 
            <li className="list-none" key={product.id}>
         <div className="m-2 border-blue-500 rounded border-2 flex flex-col justify-center items-center bg-emerald-300 hover:shadow-2xl hover:shadow-fuchsia-500 ">
          
@@ -27,7 +28,7 @@ function IslamicBook() {
             
         </div>
         </li>
-        )
+          )
       }
       
      
