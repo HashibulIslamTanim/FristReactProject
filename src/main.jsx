@@ -24,7 +24,6 @@ const router = createBrowserRouter([
       },
       {
         path: "IslamicBook",
-        loader: ()=>fetch('/public/IslamicbookAPI/Islamicbook.json'),
         Component: IslamicBook,
       },
       {
