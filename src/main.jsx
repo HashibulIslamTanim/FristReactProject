@@ -28,12 +28,10 @@ const router = createBrowserRouter([
       },
       {
         path: "Food",
-        loader:()=>fetch('/public/FoodAPI/Food.json'),
         Component: Food
       },
       {
         path: "Fruit",
-        loader:()=>fetch('/public/FruitAPI/Fruit.json'),
         Component:Fruit, 
       },
       {

@@ -1,4 +1,4 @@
-[
+const FruitData = [
     {
         "id": "1",
         "name": "আপেল",
@@ -70,3 +70,4 @@
         "image":"/public/FruitAPI/Fruitimage/fruit109.jpeg" 
     }
 ]
+export default FruitData

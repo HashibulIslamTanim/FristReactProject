@@ -1,4 +1,5 @@
-[
+
+const FoodData = [
     {
         "id": "1",
         "name": "ডিম সেন্ডউইস",
@@ -64,9 +65,10 @@
     },
     {
         "id": "10",
-        "name": "আলুর দম",
+        "name": "মোমো",
         "price":"80",
         "writer":"",
         "image":"/public/FoodAPI/Foodimage/food118.jpeg" 
     }
 ]
+export default FoodData

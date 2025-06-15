@@ -1,13 +1,12 @@
-import { useLoaderData } from "react-router-dom"
+import FoodData from "../../../public/data/Food"
 
 
 function Food() {
-  const loadingdata =useLoaderData()
-   console.log(loadingdata)
+ 
   return (
     <div className="flex flex-wrap bg-blue-950  justify-center items-center ">
       {
-        loadingdata.map(product => 
+        FoodData.map(product => 
           <li className="list-none" key={product.id}>
         <div className="m-2 border-blue-500 rounded border-2 flex flex-col justify-center items-center bg-emerald-300 hover:shadow-2xl hover:shadow-fuchsia-500 ">
           <div className=" w-28  sm:w-2 md:w-56 h-40 md:h-60 sm:h-6 bg-cover ">
