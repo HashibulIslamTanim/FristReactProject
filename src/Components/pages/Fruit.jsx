@@ -8,7 +8,7 @@ function Fruit() {
       {
         FruitData.map(product => 
           <li className="list-none" key={product.id}>
-        <div className="m-2 border-blue-500 rounded border-2 flex flex-col justify-center items-center bg-emerald-300 hover:shadow-2xl hover:shadow-fuchsia-500 ">
+        <div className="m-2  w-30  sm:w-4 md:w-60 h-60 md:h-80 sm:h-10 border-blue-500 rounded border-2 flex flex-col justify-center items-center bg-emerald-300 hover:shadow-2xl hover:shadow-fuchsia-500 ">
           <div className=" w-28  sm:w-2 md:w-56 h-40 md:h-60 sm:h-6 bg-cover ">
             <img className="w-full h-full" src={product.image} />
             
